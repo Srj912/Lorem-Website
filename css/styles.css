@@ -1,0 +1,147 @@
+/* Author: Sreeraj R S */
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+.img-container{
+    width: 30%;
+    height:auto;
+}
+.img-fluid{
+    max-width: 100%;
+    height:auto;
+}
+
+img{
+    border-radius: 25px;;
+}
+
+.box1{
+    /* color: #00f; */
+    /* color:  rgb(0,0,255) */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #333;
+    width:100%;
+    height: 60vh;
+    text-align: center;
+    padding: 150px;
+    font-size: xx-large;
+    color: #eaeaea;
+    /* border: solid; */
+}
+
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    color: #eaeaea;
+}
+
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #eaeaea;
+    width:100%;
+    height: 40vh;
+    text-align: center;
+    padding: 100px;
+    font-size: xx-large;
+    color: #333;
+}
+
+.box4{
+    /* color: #00f; */
+    /* color:  rgb(0,0,255) */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    background-color: #333;
+    width:100%;
+    height: 60vh;
+    text-align: center;
+    padding: 50px;
+    font-size: large;
+    color: #eaeaea;
+    /* border: solid; */
+}
+
+.box4 > div{
+    background-color: #eaeaea;
+    display: inline-block;
+    width:25%;
+    height:auto;
+    border-radius: 30px;
+    border: 20px red; 
+    color:#000;
+    margin: 15px;
+}
+
+.box4>div div{          
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;    
+    border: 10px solid #eaeaea; 
+    width:100%;
+ } 
+
+ .box4 > div div~p{
+    width: 100%;
+    height: 75px;
+    background-color: #eaeaea;
+ }
+
+ .box5{
+    padding: 100px;
+    text-align: center;
+    vertical-align: center;
+    font-size: xx-large;
+    background-color: #2690D4;
+    width:50%;
+    height: 60vh;
+    position: relative;
+    border-collapse: collapse;
+ }
+
+ .box6{
+    padding: 100px;
+    text-align: center;
+    vertical-align: center;
+    font-size: xx-large;
+    background-color: #333;
+    width:50%;
+    height: 60vh;
+ }
+
+ .box3:hover{
+    border:solid #F00;
+    color: #F00;
+    cursor:pointer;
+ }
+
+ .desc-container{
+    display: flex;
+ }
+
+ /* @media screen and (max-width:576px){
+    .box1{
+        height: 100vh;
+        font-size: small;
+    }
+
+    .box1 div{
+        width: 100%;
+        height: auto;
+    }
+} */
